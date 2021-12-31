@@ -1,0 +1,14 @@
+print('1. Monday to Friday. 2. Saturday. 3. Holiday.')
+dayWeek = int(input('Choose the day of the week.'))
+
+if dayWeek == 1:
+    print('We are cracking down on bus-only cars.')
+    print('1. Bus. 2. Car.')
+    carType = int(input('Please choose the car model.'))
+
+    if carType != 1:
+        print('Violation of the bus lane!')
+    else:
+        print('Its a bus.')
+else:
+    print('We dont crack down on Saturdays and holidays.')
