@@ -1,0 +1,12 @@
+score = int(input('Enter the score. '))
+
+if score >= 90:		# If the score is 90 or higher, "A" will be printed out.
+    print('A')
+elif score >= 80:	            # If the score is less than 90 points and 80 points, "B" is printed.
+    print('B')
+elif score >= 70:	            # If the score is less than 80 points and 70 points, "C" is printed.
+    print('C')
+elif score >= 60:	            # If the score is less than 70 and more than 60 points, "D" is printed.
+    print('D')
+else:			# If the score is less than 60, print out "F".
+    print('F')
