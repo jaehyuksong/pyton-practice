@@ -1,0 +1,28 @@
+import turtle
+t = turtle.Turtle()
+t.shape("turtle")
+
+carSpeed = int(input('What is the cars current speed? : '))
+
+if carSpeed >= 50:
+    t.fillcolor('red')
+    t.begin_fill()
+    t.circle(50)
+    t.end_fill()
+
+    t.up()         
+    t.goto(120, 0)   
+    t.down()
+
+    t.circle(50)
+else:
+    t.circle(50)
+
+    t.up()         
+    t.goto(120, 0)   
+    t.down()
+
+    t.fillcolor('green')
+    t.begin_fill()
+    t.circle(50)
+    t.end_fill()
